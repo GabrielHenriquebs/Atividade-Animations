@@ -1,0 +1,39 @@
+.pai{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filho1{
+    width: 200px;
+    height: 300px;
+    border: 1px solid;
+    background-color: pink;
+    animation: mover 3s ease infinite ;
+}
+.filho2{
+    width: 200px;
+    height: 300px;
+    border: 1px solid;
+    background-color: pink;
+    animation: mover 3s infinite 2s;
+}
+.filho3{
+    width: 200px;
+    height: 300px;
+    border: 1px solid;
+    background-color: pink;
+    animation: mover 3s infinite 3s;
+}
+
+@keyframes mover {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(100px);
+    }
+}

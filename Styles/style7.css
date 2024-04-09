@@ -1,0 +1,26 @@
+.pai{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filho{
+    width: 0;
+    height: 0;
+    border: 1px solid;
+    background-color: pink;
+    animation: aparecer linear 3s infinite normal ;
+}
+       
+@keyframes aparecer {
+    0%{
+        background-color: pink;
+    }
+    100%{
+        background-color: aqua;
+        width: 200px;
+        height: 200px;
+    }
+
+
+}

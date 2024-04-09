@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: logo 2s ease;
+}
+       
+@keyframes logo {
+    0%{
+        bottom: 0% ;
+        right: 0% ;
+        width: 200px;
+        height: 200px;
+    
+    }
+    100%{
+        bottom: 46% ;
+        right: 46% ;
+        width: 70px;
+        height: 70px;
+    
+    }
+
+
+}

@@ -1,0 +1,50 @@
+.pai{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filho{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    background-color: pink;
+    animation: rotacao ease 3s infinite normal ;
+}
+       
+@keyframes rotacao {
+    0%{
+        transform: rotate(0);  
+    }
+    12%{
+        transform: rotate(45deg);
+        background-color: blueviolet;
+    }
+    24%{
+        transform: rotate(53deg);
+        background-color: aqua;
+    }   
+    36%{
+        transform: rotate(61deg);
+        background-color: black;
+    }
+    48%{
+        transform: rotate(69deg);
+        background-color: blue;
+    }
+    60%{
+        transform: rotate(77deg);
+        background-color: whitesmoke;
+    }
+    72%{
+        transform: rotate(85deg);
+        background-color: yellow;
+    }
+    84%{
+        transform: rotate(93deg);
+        background-color: chartreuse;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,24 @@
+.pai{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filho{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: pink;
+    animation: fluir linear 4s infinite normal ;
+}
+       
+@keyframes fluir {
+    from{
+        transform: translateX(0);  
+    }
+    to{
+        transform: translateX(500px);
+    }
+
+}

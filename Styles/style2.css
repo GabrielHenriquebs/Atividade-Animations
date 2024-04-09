@@ -1,0 +1,25 @@
+.pai{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filho{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    background-color: pink;
+}
+.filho:hover{
+    animation: cores 5s ease;
+    transition: 1s;
+    
+}
+@keyframes cores {
+    0%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: pink;
+    }
+}

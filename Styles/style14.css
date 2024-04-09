@@ -1,0 +1,28 @@
+.pai{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filho{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: pink;
+}
+.filho:hover{
+    animation: transfomar 2s ease;
+}
+
+@keyframes transfomar {
+    0%{
+        width: 200px;
+        height: 200px;
+    }
+    100%{
+        border-radius: 0;
+        width: 200px;
+        height: 100px;
+    }
+}
